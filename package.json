@@ -1,0 +1,12 @@
+{
+  "name": "ai-fullstack-notes-app",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Monorepo demo: React client, Express server, PL/SQL sample.",
+  "scripts": {
+    "dev:server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix client run dev",
+    "test:server": "npm --prefix server test",
+    "install:all": "npm --prefix server install && npm --prefix client install"
+  }
+}
