@@ -13,6 +13,8 @@ describe('Notes API', () => {
     expect(res.body[0]).toHaveProperty('title');
   });
 
+
+  
   test('POST /api/notes creates a new note', async () => {
     const newNote = { title: 'Test', content: 'Created via test' };
     const res = await request(app)
